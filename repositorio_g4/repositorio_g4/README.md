@@ -102,7 +102,7 @@ mysql -u root -p db_acervo_filmes < 03_consultas.sql
 
 ## 📚 Disciplina
 
-Trabalho final desenvolvido para a disciplina de **Laboratório de banco de dados**, sob orientação do(a) professor(a) Samuel, na Universidade Católica de Brasília (UCB).
+Trabalho final desenvolvido para a disciplina de **Laboratório de banco de dados**, sob orientação do(a) professor(a) Samuel Novais Moura Júnior, na Universidade Católica de Brasília (UCB).
 
 ---
 
