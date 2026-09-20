@@ -125,9 +125,9 @@ As evidências de execução (prints, logs e relatórios) estarão disponíveis 
 ## 📄 Documentação
 
 - [Dicionario dados](docs/dicionario-dados.pdf)
-- [mer-conceitual)](docs/mer-conceitual.pdf)
-- [modelo-logico](docs/modelo-logico,pdf)
-- [Relatorio etapa](docs/relatorio-etapa.pdf)
+- [mer-conceitual](docs/mer-conceitual.pdf)
+- [modelo-logico](docs/modelo-logico.pdf)
+- [Relatorio etapa1](docs/relatorio-etapa.pdf)
 
 ---
 
