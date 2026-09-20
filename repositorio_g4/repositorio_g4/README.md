@@ -5,8 +5,7 @@ Projeto de Banco de Dados Relacional desenvolvido para a disciplina de Laborató
 
 ## 📌 Objetivo
 
-Desenvolver um sistema simples e funcional para gerenciamento de um catálogo de filmes, aplicando testes unitários, testes de API e testes E2E, seguindo as melhores práticas de qualidade de software ensinadas na disciplina.
-
+O sistema consiste em uma solução de banco de dados relacional para a gestão completa de um acervo cinematográfico e catálogo de serviços de streaming[cite: 4, 10]. A modelagem abrange desde a catalogação de obras (filmes e episódios/mídias derivadas) e profissionais do audiovisual (atores e diretores) até a distribuição temporal em plataformas e a interação final de usuários através de avaliações e críticas.
 ---
 
 ## 👥 Integrantes do Grupo
@@ -14,7 +13,7 @@ Desenvolver um sistema simples e funcional para gerenciamento de um catálogo de
 | Nome | Matrícula | GitHub |
 |------|-----------|--------|
 | João Pedro Souza Pereira | UC25200260 | joaopsouza-dev |
-| Kenzo Matsunaga | UC25200299 | _(preencher)_ |
+| Kenzo Matsunaga | UC25200299 | kenzomats |
 | Giulia | UC25200440 | Giulia Valença de Melo - Giu_ |
 | Kaylane | UC25200185 | Lanyx001 |
 
@@ -53,23 +52,18 @@ Desenvolver um sistema simples e funcional para gerenciamento de um catálogo de
 
 ```
 catalogo-filmes/
-├── backend/
-│   ├── src/
-│   ├── tests/
-│   │   ├── unit/
-│   │   └── api/
-│   └── package.json
-├── frontend/
-│   ├── src/
-│   └── tests/
-│       └── e2e/
-├── docs/
-│   ├── documento-de-visao.md
-│   ├── historias-usuario.md
-│   └── plano-de-testes.md
-└── README.md
-```
-
+.
+├── 📁 docs/
+│    ├── dicionario-dados.pdf
+│    ├── mer-conceitual.pdf
+│    ├── modelo-logico.pdf
+│    └── relatorio-etapa1.pdf
+├── 📁 sql/
+│    ├── 📜 01_ddl.sql             
+│    ├── 📜 02_carga.sql          
+│    └── 📜 03_consultas.sql
+├── 📄 README.md     
+``
 ---
 
 ## ⚙️ Como Executar o Projeto
