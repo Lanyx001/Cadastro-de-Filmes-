@@ -124,7 +124,7 @@ As evidências de execução (prints, logs e relatórios) estarão disponíveis 
 
 ## 📄 Documentação
 
-- [Documento de Visão](docs/documento-de-visao.md)
+- [Dicionário dados](docs/dicionario-dados.pdf)
 - [Histórias de Usuário (BDD)](docs/historias-usuario.md)
 - [Plano de Testes](docs/plano-de-testes.md)
 - [Relatório Final](docs/relatorio-final.md)
