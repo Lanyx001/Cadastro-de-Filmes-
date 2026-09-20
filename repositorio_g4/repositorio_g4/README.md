@@ -64,6 +64,7 @@ Pré-requisitos
   MySQL Workbench, DBeaver ou CLI do MySQL 
 ```
 Passo a Passo
+
 Clone o repositório:
 
 Bash
