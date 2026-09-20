@@ -21,31 +21,23 @@ O sistema consiste em uma solução de banco de dados relacional para a gestão 
 
 ## 🚀 Funcionalidades
 
-- **Autenticação**: tela de login com usuário e senha.
-- **CRUD de Filmes**:
-  - Cadastrar novo filme (título, diretor, ano, gênero, sinopse, nota).
-  - Consultar filmes cadastrados (listagem e busca por título/gênero).
-  - Atualizar informações de um filme existente.
-  - Remover filme do catálogo.
-- **Interface de usuário**: _(frontend web ou CLI — definir)_.
+1. Gestão do Acervo CinematográficoCadastro de Obras: Registo de filmes contendo título, ano de lançamento, duração e estado (ativo/desativado).   Autorrelacionamento de Sequências: Vinculação de sequências diretas e franquias entre filmes (POSSUI SEQUÊNCIA).   Mídias e Conteúdos Fracionados (Entidade Fraca): Registo de episódios ou conteúdos especiais dependentes da existência do filme/série pai.   Categorização Temática: Associação de filmes a múltiplos géneros cinematográficos (N:M).
+
+2. Gestão de Pessoas e Ficha TécnicaHerança e Especialização (t, o): Cadastro de pessoas com especialização total e sobreposta em Atores e Diretores (um mesmo indivíduo pode atuar e/ou dirigir).   Controlo de Elenco: Associação de atores a filmes com registo obrigatório do personagem interpretado.   Controlo de Direção: Mapeamento da equipa de direção responsável por cada obra.
+   
+3. Distribuição e Exibição TemporalGestão de Plataformas: Mapeamento de canais de exibição (Streaming, Cinema, TV).   Janela Temporal de Disponibilidade: Controlo de início e fim da concessão de exibição de cada filme por plataforma.
+   
+4. Interação e Avaliação do UtilizadorCadastro de Utilizadores: Registo de perfil de utilizador com e-mail único.   Avaliação de Conteúdo: Submissão de notas (entre 0.0 e 10.0), comentários/críticas e data da avaliação.   Exclusão Lógica: Preservação do histórico e integridade do banco através da alteração de estado para desativado sem perda de dados.
 
 ---
 
 ## 🛠️ Tecnologias
 
-> Ajuste conforme as escolhas finais do grupo.
-
-- **Backend / API**: _(ex: Node.js + Express)_
-- **Frontend**: _(ex: React, ou CLI em Node/Python)_
-- **Banco de dados**: _(ex: SQLite)_
-- **Autenticação**: _(ex: JWT)_
-
-### Ferramentas de Teste
-
-- **Testes Unitários**: _(ex: Jest)_
-- **Testes de API**: _(ex: Supertest / Postman + Newman)_
-- **Testes E2E**: _(ex: Cypress / Playwright)_
-
+SGBD Relacional: MySQL 8.0+ / MariaDB 10.4+   
+Linguagem SQL: SQL ANSI (DDL para criação de schemas, DML para povoamento e DQL para consultas)   
+Ferramentas de Modelagem: draw.io, Lucidchart e Mermaid.js   
+Ferramentas de Administração de BD: MySQL Workbench / DBeaver / CLI do MySQL   
+Controlo de Versão: Git e GitHub
 ---
 
 ## 📂 Estrutura do Projeto
@@ -68,57 +60,34 @@ catalogo-filmes/
 
 ## ⚙️ Como Executar o Projeto
 
-### Pré-requisitos
-
-- Node.js (versão X ou superior) _(ajustar conforme stack)_
-- _(outros pré-requisitos: banco de dados, etc.)_
-
-### Passos
-
-```bash
-# Clonar o repositório
-git clone https://github.com/<usuario>/catalogo-filmes.git
-cd catalogo-filmes
-
-# Instalar dependências do backend
-cd backend
-npm install
-
-# Rodar o backend
-npm start
-
-# Instalar dependências do frontend (em outro terminal)
-cd ../frontend
-npm install
-npm start
+🚀 Instruções de ExecuçãoP:
+ré-requisitos
+  MySQL Server 8.0+ ou MariaDB 10.4+
+  MySQL Workbench, DBeaver ou CLI do MySQL 
 ```
+Passo a Passo
+Clone o repositório:
+
+Bash
+git clone https://github.com/seu-usuario/acervo-filmes-bd.git
+cd acervo-filmes-bd
+
+Execute o script DDL (Criação do Banco e Tabelas):
+Bashmysql -u root -p < 01_ddl.sql
+Este script cria o banco db_acervo_filmes, todas as restrições (CHECK, FOREIGN KEY, UNIQUE) e os índices auxiliares (idx_filme_titulo, idx_pessoa_nome, idx_disp_periodo).   
+
+Execute o script DML (Carga de Dados):
+
+Bash
+mysql -u root -p < 02_carga.sql
+
+Execute as Consultas SQL de Teste:
+
+Bash
+mysql -u root -p db_acervo_filmes < 03_consultas.sql
 
 ---
 
-## ✅ Testes
-
-### Rodando os testes unitários
-
-```bash
-cd backend
-npm test
-```
-
-### Rodando os testes de API
-
-```bash
-cd backend
-npm run test:api
-```
-
-### Rodando os testes E2E
-
-```bash
-cd frontend
-npm run test:e2e
-```
-
-As evidências de execução (prints, logs e relatórios) estarão disponíveis em `docs/evidencias/`.
 
 ---
 
@@ -133,7 +102,7 @@ As evidências de execução (prints, logs e relatórios) estarão disponíveis 
 
 ## 📚 Disciplina
 
-Trabalho final desenvolvido para a disciplina de **Teste de Software**, sob orientação do(a) professor(a) _(nome)_, na Universidade Católica de Brasília (UCB).
+Trabalho final desenvolvido para a disciplina de **Laboratório de banco de dados**, sob orientação do(a) professor(a) Samuel, na Universidade Católica de Brasília (UCB).
 
 ---
 
