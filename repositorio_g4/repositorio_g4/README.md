@@ -1,11 +1,9 @@
 🎬 Sistema de Gestão de Acervo Cinematográfico & Streaming
-Projeto de Banco de Dados Relacional desenvolvido para a disciplina de Laboratório de Banco de Dados da Universidade Católica de Brasília (UCB)[cite: 4, 10], sob orientação do Prof. Samuel Novais Moura Júnior.
-
 ---
 
 ## 📌 Objetivo
 
-O sistema consiste em uma solução de banco de dados relacional para a gestão completa de um acervo cinematográfico e catálogo de serviços de streaming[cite: 4, 10]. 
+O sistema consiste em uma solução de banco de dados relacional para a gestão completa de um acervo cinematográfico e catálogo de serviços de streaming. 
 A modelagem abrange desde a catalogação de obras (filmes e episódios/mídias derivadas) e profissionais do audiovisual (atores e diretores) até a distribuição temporal em plataformas e a interação final de usuários através de avaliações e críticas.
 ---
 
@@ -60,8 +58,8 @@ catalogo-filmes/
 ---
 ## ⚙️ Como Executar o Projeto
 
-🚀 Instruções de ExecuçãoP:
-ré-requisitos
+🚀 Instruções de Execução:
+Pré-requisitos
   MySQL Server 8.0+ ou MariaDB 10.4+
   MySQL Workbench, DBeaver ou CLI do MySQL 
 ```
@@ -69,8 +67,8 @@ Passo a Passo
 Clone o repositório:
 
 Bash
-git clone https://github.com/seu-usuario/acervo-filmes-bd.git
-cd acervo-filmes-bd
+git clone https://github.com/Lanyx001/cadastro-de-filmes-bd.git
+cd cadastro-de-filmes-bd
 
 Execute o script DDL (Criação do Banco e Tabelas):
 Bashmysql -u root -p < 01_ddl.sql
