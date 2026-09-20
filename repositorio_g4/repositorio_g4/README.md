@@ -5,7 +5,8 @@ Projeto de Banco de Dados Relacional desenvolvido para a disciplina de Laborató
 
 ## 📌 Objetivo
 
-O sistema consiste em uma solução de banco de dados relacional para a gestão completa de um acervo cinematográfico e catálogo de serviços de streaming[cite: 4, 10]. A modelagem abrange desde a catalogação de obras (filmes e episódios/mídias derivadas) e profissionais do audiovisual (atores e diretores) até a distribuição temporal em plataformas e a interação final de usuários através de avaliações e críticas.
+O sistema consiste em uma solução de banco de dados relacional para a gestão completa de um acervo cinematográfico e catálogo de serviços de streaming[cite: 4, 10]. 
+A modelagem abrange desde a catalogação de obras (filmes e episódios/mídias derivadas) e profissionais do audiovisual (atores e diretores) até a distribuição temporal em plataformas e a interação final de usuários através de avaliações e críticas.
 ---
 
 ## 👥 Integrantes do Grupo
@@ -34,10 +35,10 @@ O sistema consiste em uma solução de banco de dados relacional para a gestão 
 ## 🛠️ Tecnologias
 
 SGBD Relacional: MySQL 8.0+ / MariaDB 10.4+   
-Linguagem SQL: SQL ANSI (DDL para criação de schemas, DML para povoamento e DQL para consultas)   
-Ferramentas de Modelagem: draw.io, Lucidchart e Mermaid.js   
-Ferramentas de Administração de BD: MySQL Workbench / DBeaver / CLI do MySQL   
-Controlo de Versão: Git e GitHub
+- Linguagem SQL: SQL ANSI (DDL para criação de schemas, DML para povoamento e DQL para consultas)   
+- Ferramentas de Modelagem: draw.io, Lucidchart e Mermaid.js   
+- Ferramentas de Administração de BD: MySQL Workbench / DBeaver / CLI do MySQL   
+- Controlo de Versão: Git e GitHub
 ---
 
 ## 📂 Estrutura do Projeto
