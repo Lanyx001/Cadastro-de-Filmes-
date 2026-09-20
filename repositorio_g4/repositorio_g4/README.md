@@ -68,7 +68,7 @@ Passo a Passo
 Clone o repositório:
 
 Bash
-git clone https://github.com/Lanyx001/cadastro-de-filmes-bd.git
+git clone https://github.com/---/cadastro-de-filmes-bd.git
 cd cadastro-de-filmes-bd
 
 Execute o script DDL (Criação do Banco e Tabelas):
