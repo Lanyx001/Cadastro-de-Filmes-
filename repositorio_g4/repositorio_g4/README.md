@@ -124,10 +124,10 @@ As evidências de execução (prints, logs e relatórios) estarão disponíveis 
 
 ## 📄 Documentação
 
-- [Dicionário dados](docs/dicionario-dados.pdf)
-- [Histórias de Usuário (BDD)](docs/historias-usuario.md)
-- [Plano de Testes](docs/plano-de-testes.md)
-- [Relatório Final](docs/relatorio-final.md)
+- [Dicionario dados](docs/dicionario-dados.pdf)
+- [mer-conceitual)](docs/mer-conceitual.pdf)
+- [modelo-logico](docs/modelo-logico,pdf)
+- [Relatorio etapa](docs/relatorio-etapa.pdf)
 
 ---
 
