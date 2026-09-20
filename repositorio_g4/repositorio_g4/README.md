@@ -1,6 +1,5 @@
-# 🎬 Catálogo de Filmes
-
-Sistema de catálogo de filmes desenvolvido como trabalho final da disciplina de **Teste de Software**. O projeto permite que usuários autenticados cadastrem, consultem, atualizem e removam filmes de um catálogo pessoal, com foco na aplicação de técnicas de teste unitário, de API e E2E.
+🎬 Sistema de Gestão de Acervo Cinematográfico & Streaming
+Projeto de Banco de Dados Relacional desenvolvido para a disciplina de Laboratório de Banco de Dados da Universidade Católica de Brasília (UCB)[cite: 4, 10], sob orientação do Prof. Samuel Novais Moura Júnior.
 
 ---
 
