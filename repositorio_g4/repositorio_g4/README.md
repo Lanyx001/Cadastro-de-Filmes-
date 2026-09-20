@@ -63,27 +63,14 @@ Pré-requisitos
   MySQL Server 8.0+ ou MariaDB 10.4+
   MySQL Workbench, DBeaver ou CLI do MySQL 
 ```
-Passo a Passo
 
-Clone o repositório:
+Ordem de Execução dos Scripts SQL:01_ddl.sql: 
 
-Bash
-git clone https://github.com/---/cadastro-de-filmes-bd.git
-cd cadastro-de-filmes-bd
+Executa a limpeza da base anterior, cria o banco db_acervo_filmes, todas as tabelas, chaves primárias, chaves estrangeiras, validações CHECK e índices auxiliares.   
 
-Execute o script DDL (Criação do Banco e Tabelas):
-Bashmysql -u root -p < 01_ddl.sql
-Este script cria o banco db_acervo_filmes, todas as restrições (CHECK, FOREIGN KEY, UNIQUE) e os índices auxiliares (idx_filme_titulo, idx_pessoa_nome, idx_disp_periodo).   
+02_carga.sql: Popula a base de dados com a massa de dados inicial (25 utilizadores, 45 pessoas, 42 filmes e 105 avaliações).   
 
-Execute o script DML (Carga de Dados):
-
-Bash
-mysql -u root -p < 02_carga.sql
-
-Execute as Consultas SQL de Teste:
-
-Bash
-mysql -u root -p db_acervo_filmes < 03_consultas.sql
+03_consultas.sql: Roda a bateria de consultas e relatórios do sistema.
 
 ---
 
