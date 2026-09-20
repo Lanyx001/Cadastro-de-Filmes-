@@ -17,7 +17,7 @@ Desenvolver um sistema simples e funcional para gerenciamento de um catálogo de
 | João Pedro Souza Pereira | UC25200260 | joaopsouza-dev |
 | Kenzo Matsunaga | _(preencher)_ | _(preencher)_ |
 | Giulia | _(preencher)_ | _(preencher)_ |
-| Kaylane | _(preencher)_ | _(preencher)_ |
+| Kaylane | UC25200185 | Lanyx001 |
 
 ---
 
