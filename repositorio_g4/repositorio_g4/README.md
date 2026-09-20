@@ -21,13 +21,13 @@ O sistema consiste em uma solução de banco de dados relacional para a gestão 
 
 ## 🚀 Funcionalidades
 
-1. Gestão do Acervo CinematográficoCadastro de Obras: Registo de filmes contendo título, ano de lançamento, duração e estado (ativo/desativado).   Autorrelacionamento de Sequências: Vinculação de sequências diretas e franquias entre filmes (POSSUI SEQUÊNCIA).   Mídias e Conteúdos Fracionados (Entidade Fraca): Registo de episódios ou conteúdos especiais dependentes da existência do filme/série pai.   Categorização Temática: Associação de filmes a múltiplos géneros cinematográficos (N:M).
+1. Gestão do Acervo Cinematográfico Cadastro de Obras: Registo de filmes contendo título, ano de lançamento, duração e estado (ativo/desativado).   Autorrelacionamento de Sequências: Vinculação de sequências diretas e franquias entre filmes (POSSUI SEQUÊNCIA).  Mídias e Conteúdos Fracionados (Entidade Fraca): Registo de episódios ou conteúdos especiais dependentes da existência do filme/série pai.   Categorização Temática: Associação de filmes a múltiplos géneros cinematográficos (N:M).
 
-2. Gestão de Pessoas e Ficha TécnicaHerança e Especialização (t, o): Cadastro de pessoas com especialização total e sobreposta em Atores e Diretores (um mesmo indivíduo pode atuar e/ou dirigir).   Controlo de Elenco: Associação de atores a filmes com registo obrigatório do personagem interpretado.   Controlo de Direção: Mapeamento da equipa de direção responsável por cada obra.
+2. Gestão de Pessoas e Ficha Técnica Herança e Especialização (t, o): Cadastro de pessoas com especialização total e sobreposta em Atores e Diretores (um mesmo indivíduo pode atuar e/ou dirigir).   Controlo de Elenco: Associação de atores a filmes com registo obrigatório do personagem interpretado.   Controlo de Direção: Mapeamento da equipa de direção responsável por cada obra.
    
-3. Distribuição e Exibição TemporalGestão de Plataformas: Mapeamento de canais de exibição (Streaming, Cinema, TV).   Janela Temporal de Disponibilidade: Controlo de início e fim da concessão de exibição de cada filme por plataforma.
+3. Distribuição e Exibição Temporal Gestão de Plataformas: Mapeamento de canais de exibição (Streaming, Cinema, TV).   Janela Temporal de Disponibilidade: Controlo de início e fim da concessão de exibição de cada filme por plataforma.
    
-4. Interação e Avaliação do UtilizadorCadastro de Utilizadores: Registo de perfil de utilizador com e-mail único.   Avaliação de Conteúdo: Submissão de notas (entre 0.0 e 10.0), comentários/críticas e data da avaliação.   Exclusão Lógica: Preservação do histórico e integridade do banco através da alteração de estado para desativado sem perda de dados.
+4. Interação e Avaliação do Utilizador Cadastro de Utilizadores: Registo de perfil de utilizador com e-mail único.   Avaliação de Conteúdo: Submissão de notas (entre 0.0 e 10.0), comentários/críticas e data da avaliação.   Exclusão Lógica: Preservação do histórico e integridade do banco através da alteração de estado para desativado sem perda de dados.
 
 ---
 
@@ -57,7 +57,6 @@ catalogo-filmes/
 ├── 📄 README.md     
 ``
 ---
-
 ## ⚙️ Como Executar o Projeto
 
 🚀 Instruções de ExecuçãoP:
