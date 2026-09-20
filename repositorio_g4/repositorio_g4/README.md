@@ -15,8 +15,8 @@ Desenvolver um sistema simples e funcional para gerenciamento de um catálogo de
 | Nome | Matrícula | GitHub |
 |------|-----------|--------|
 | João Pedro Souza Pereira | UC25200260 | joaopsouza-dev |
-| Kenzo Matsunaga | _(preencher)_ | _(preencher)_ |
-| Giulia | _(preencher)_ | _(preencher)_ |
+| Kenzo Matsunaga | UC25200299 | _(preencher)_ |
+| Giulia | UC25200440 | Giulia Valença de Melo - Giu_ |
 | Kaylane | UC25200185 | Lanyx001 |
 
 ---
